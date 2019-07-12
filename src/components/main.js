@@ -7,6 +7,8 @@ import Resume from './resume';
 import agodaWebscraper from './projectLearn/agodaWebscraper';
 import reactWebsite from './projectLearn/reactWebsite';
 import foodExpense from './projectLearn/foodExpense';
+import angelHack from './projectLearn/angelHack';
+import tictactoe from './projectLearn/tictactoe';
 function Main(){
     return(
         <Switch>
@@ -18,6 +20,9 @@ function Main(){
             <Route exact path ='/agodaWebscraper' component = {agodaWebscraper}></Route>
             <Route exact path ='/reactWebsite' component = {reactWebsite}></Route>
             <Route exact path ='/foodExpense' component = {foodExpense}></Route>
+            <Route exact path ='/angelHack' component = {angelHack}></Route>
+            <Route exact path ='/tictactoe' component = {tictactoe}></Route>
+
         </Switch>
     )
  }

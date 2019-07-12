@@ -17,7 +17,7 @@ class Projects extends Component {
                         Personal Website built using React
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                        <Button colored href = "https://github.com/mrjake135/PersonalProfileWebsite" target = "_blank" rel = "noopener noreferrer">Github</Button>
                         <Button colored href="/reactWebsite">Learn More</Button>
                     </CardActions>
                 </Card>
@@ -54,24 +54,12 @@ class Projects extends Component {
             return (
                 <div className = "projects-grid">
                     <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://www.ogivetechnology.com/images/embed_edited.jpg) center / cover' }}>Rock Paper Scissors</CardTitle>
-                        <CardText>
-                            Rock Paper Scissors implemented using C and C++  put into an embedded system
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Learn More</Button>
-                        </CardActions>
-                    </Card>
-
-                    <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://www.ogivetechnology.com/images/embed_edited.jpg) center / cover' }}>Tetris</CardTitle>
                         <CardText>
                             Tetris implemented using C and C++  put into an embedded system using array math
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Learn More</Button>
+                            <Button colored href = "https://github.com/mrjake135/TetrisEmbedded" target = "_blank" rel = "noopener noreferrer">Github</Button>
                         </CardActions>
                     </Card>
 
@@ -81,8 +69,7 @@ class Projects extends Component {
                             RPG game implemented using C and C++  put into an embedded system using an implemented linked list
                         </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>Learn More</Button>
+                            <Button colored href = "https://www.youtube.com/watch?v=SeYoa9oGOAM" target = "_blank" rel = "noopener noreferrer">Youtube</Button>
                         </CardActions>
                     </Card>
                 </div>
@@ -97,8 +84,8 @@ class Projects extends Component {
                         Tic Tac Toe with an unbeatable AI
                     </CardText>
                     <CardActions border>
-                        <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
-                        <Button colored href="/agodaWebscraper">Learn More</Button>
+                        <Button colored href = "https://github.com/mrjake135/TicTacToe-with-CPU" target = "_blank" rel = "noopener noreferrer">Github</Button>
+                        <Button colored href="/tictactoe">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>
@@ -113,8 +100,8 @@ class Projects extends Component {
                         Loaning company solution
                     </CardText>
                     <CardActions border>
-                        <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
-                        <Button colored href="/agodaWebscraper">Learn More</Button>
+                        <Button colored href = "https://github.com/julliatran/AngelHack2019" target = "_blank" rel = "noopener noreferrer">Github</Button>
+                        <Button colored href="/angelHack">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>

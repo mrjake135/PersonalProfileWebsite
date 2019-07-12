@@ -64,13 +64,6 @@
   display: flex;
 }
 
-.project-learn-more{
-  background: #8A2387;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align:center;
-}
-
 .returnButton {
   color:white;
   font-size: 2em;
@@ -105,6 +98,44 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.angelhack-example {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.angelhack-working {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.angelhack-present {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tic-tac-toe{
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tic-tac-toe-check{
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 .contact-body {
   margin:auto;
@@ -150,4 +181,10 @@
    background:#27221f;
    color:white;
    padding: 2em;
+}
+
+.learn-more-inside {
+  background-color:black;
+  color:white;
+  text-align:center;
 }

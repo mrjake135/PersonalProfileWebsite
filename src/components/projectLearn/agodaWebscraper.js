@@ -4,8 +4,8 @@ import sampleAgodaCities from '../../images/sampleAgodaCities.png'
 import sampleAgodaHotel from '../../images/sampleAgodaHotel.png'
 function agodaWebscraper() {
     return(
-        <div style = {{width: '100%', margin:'auto'}}>
-        <Grid className = "project-learn-more">
+        <div style = {{width: '100%', margin:'auto'}} className = "learn-more-inside">
+        <Grid>
             <a href = "/projects" rel = "noopener noreferrer" className = "returnButton">
             <i class="fas fa-chevron-circle-left"></i>
             </a>
@@ -21,9 +21,11 @@ function agodaWebscraper() {
                     </p>
                 </div>
             </Cell>
+        </Grid>
+        <Grid>
             <Cell col = {6}><img src = {sampleAgodaCities} alt = 'sample-Agoda-Cities' className = 'sample-Agoda-Cities' ></img><p>sample city json file</p></Cell>
             <Cell col = {6}><img src = {sampleAgodaHotel} alt = 'sample-Agoda-Hotel' className = 'sample-Agoda-Hotel' ></img><p>sample agoda hotel file</p></Cell>
-        </Grid>
+        </Grid>    
         </div>
     )
 }

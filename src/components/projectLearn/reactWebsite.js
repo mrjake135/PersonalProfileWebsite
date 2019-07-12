@@ -2,8 +2,8 @@ import React from 'react';
 import {Grid, Cell} from 'react-mdl';
 function reactWebsite() {
     return(
-        <div style = {{width: '100%', margin:'auto'}}>
-        <Grid className = "project-learn-more">
+        <div style = {{width: '100%', margin:'auto'}} className = "learn-more-inside">
+        <Grid>
             <a href = "/projects" rel = "noopener noreferrer" className = "returnButton">
             <i class="fas fa-chevron-circle-left"></i>
             </a>
