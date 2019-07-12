@@ -18,7 +18,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>Learn More</Button>
+                        <Button colored href="/reactWebsite">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>
@@ -27,14 +27,24 @@ class Projects extends Component {
         else if (this.state.activeTab === 1) {
             return (
                 <div className = "projects-grid">
-                <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.valuecoders.com/blog/wp-content/uploads/2018/05/pythonfeatured.jpg) center / cover'}}>Webscraper</CardTitle>
+                    <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.valuecoders.com/blog/wp-content/uploads/2018/05/pythonfeatured.jpg) center / cover'}}>Webscraper</CardTitle>
+                        <CardText>
+                            Webscrapes through agoda.com based on city
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
+                            <Button colored href="/agodaWebscraper">Learn More</Button>
+                        </CardActions>
+                    </Card>
+                    <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
+                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.valuecoders.com/blog/wp-content/uploads/2018/05/pythonfeatured.jpg) center / cover'}}>Food Expense by Map</CardTitle>
                     <CardText>
-                        Agoda Webscraper
+                        Plots cost of food based on location
                     </CardText>
                     <CardActions border>
                         <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
-                        <Button colored href="/agodaWebscraper">Learn More</Button>
+                        <Button colored href="/foodExpense">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>
@@ -80,12 +90,34 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 3) {
             return (
-                <div><h1>C++</h1></div>
+                <div className = "projects-grid">
+                <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
+                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/4240/1*osY-DBeyp74cxJQcBQUmLA.png) center / cover'}}>Unbeatable Tic Tac Toe</CardTitle>
+                    <CardText>
+                        Tic Tac Toe with an unbeatable AI
+                    </CardText>
+                    <CardActions border>
+                        <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
+                        <Button colored href="/agodaWebscraper">Learn More</Button>
+                    </CardActions>
+                </Card>
+                </div>
             )
         }
         else if (this.state.activeTab === 4) {
             return (
-                <div><h1>Competitions</h1></div>
+                <div className = "projects-grid">
+                <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
+                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://angelhack.com/wp-content/uploads/2019/03/ah.jpg) center / cover'}}>AngelHack Vietnam</CardTitle>
+                    <CardText>
+                        Loaning company solution
+                    </CardText>
+                    <CardActions border>
+                        <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
+                        <Button colored href="/agodaWebscraper">Learn More</Button>
+                    </CardActions>
+                </Card>
+                </div>
             )
         }
     }

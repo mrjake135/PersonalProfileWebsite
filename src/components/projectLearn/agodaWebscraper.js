@@ -1,7 +1,7 @@
 import React from 'react';
 import {Grid, Cell} from 'react-mdl'
-import sampleAgodaCities from '../images/sampleAgodaCities.png'
-import sampleAgodaHotel from '../images/sampleAgodaHotel.png'
+import sampleAgodaCities from '../../images/sampleAgodaCities.png'
+import sampleAgodaHotel from '../../images/sampleAgodaHotel.png'
 function agodaWebscraper() {
     return(
         <div style = {{width: '100%', margin:'auto'}}>
