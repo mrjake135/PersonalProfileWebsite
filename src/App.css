@@ -143,6 +143,11 @@
 }
 
 .contact-list i {
-  font-size: 45px;
-  padding-right: 5rem;
+  padding-right: 7rem;
+}
+
+.resume-right-col{
+   background:#27221f;
+   color:white;
+   padding: 2em;
 }

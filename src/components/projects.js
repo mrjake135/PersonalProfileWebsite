@@ -43,7 +43,7 @@ class Projects extends Component {
                         Plots cost of food based on location
                     </CardText>
                     <CardActions border>
-                        <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
+                        <Button colored href = "http://mapcost.herokuapp.com/" target = "_blank" rel = "noopener noreferrer">View</Button>
                         <Button colored href="/foodExpense">Learn More</Button>
                     </CardActions>
                 </Card>
