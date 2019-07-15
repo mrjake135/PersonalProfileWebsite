@@ -13,15 +13,15 @@ function Main(){
     return(
         <Switch>
             <Route exact path ='/' component = {LandingPage}></Route>
-            <Route exact path ='/aboutme' component = {LandingPage}></Route>
-            <Route exact path ='/contacts' component = {Contacts}></Route>
-            <Route exact path ='/projects' component = {Projects}></Route>
-            <Route exact path ='/resume' component = {Resume}></Route>
-            <Route exact path ='/agodawebscraper' component = {agodaWebscraper}></Route>
-            <Route exact path ='/reactwebsite' component = {reactWebsite}></Route>
-            <Route exact path ='/foodexpense' component = {foodExpense}></Route>
-            <Route exact path ='/angelhack' component = {angelHack}></Route>
-            <Route exact path ='/tictactoe' component = {tictactoe}></Route>
+            <Route path ='/aboutme' component = {LandingPage}></Route>
+            <Route path ='/contacts' component = {Contacts}></Route>
+            <Route path ='/projects' component = {Projects}></Route>
+            <Route path ='/resume' component = {Resume}></Route>
+            <Route path ='/agodawebscraper' component = {agodaWebscraper}></Route>
+            <Route path ='/reactwebsite' component = {reactWebsite}></Route>
+            <Route path ='/foodexpense' component = {foodExpense}></Route>
+            <Route path ='/angelhack' component = {angelHack}></Route>
+            <Route path ='/tictactoe' component = {tictactoe}></Route>
 
         </Switch>
     )
