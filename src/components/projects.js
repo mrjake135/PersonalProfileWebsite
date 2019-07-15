@@ -18,7 +18,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored href = "https://github.com/mrjake135/PersonalProfileWebsite" target = "_blank" rel = "noopener noreferrer">Github</Button>
-                        <Button colored href="/reactWebsite">Learn More</Button>
+                        <Button colored href="/reactwebsite">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>
@@ -34,7 +34,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored href = "https://github.com/mrjake135/WebScraper" target = "_blank" rel = "noopener noreferrer">Github</Button>
-                            <Button colored href="/agodaWebscraper">Learn More</Button>
+                            <Button colored href="/agodawebscraper">Learn More</Button>
                         </CardActions>
                     </Card>
                     <Card shadow={0} style={{ width: '512px', margin: 'auto' }}>
@@ -44,7 +44,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored href = "http://mapcost.herokuapp.com/" target = "_blank" rel = "noopener noreferrer">View</Button>
-                        <Button colored href="/foodExpense">Learn More</Button>
+                        <Button colored href="/foodexpense">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>
@@ -101,7 +101,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored href = "https://github.com/julliatran/AngelHack2019" target = "_blank" rel = "noopener noreferrer">Github</Button>
-                        <Button colored href="/angelHack">Learn More</Button>
+                        <Button colored href="/angelhack">Learn More</Button>
                     </CardActions>
                 </Card>
                 </div>

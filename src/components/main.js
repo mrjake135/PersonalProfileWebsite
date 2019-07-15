@@ -17,10 +17,10 @@ function Main(){
             <Route exact path ='/contacts' component = {Contacts}></Route>
             <Route exact path ='/projects' component = {Projects}></Route>
             <Route exact path ='/resume' component = {Resume}></Route>
-            <Route exact path ='/agodaWebscraper' component = {agodaWebscraper}></Route>
-            <Route exact path ='/reactWebsite' component = {reactWebsite}></Route>
-            <Route exact path ='/foodExpense' component = {foodExpense}></Route>
-            <Route exact path ='/angelHack' component = {angelHack}></Route>
+            <Route exact path ='/agodawebscraper' component = {agodaWebscraper}></Route>
+            <Route exact path ='/reactwebsite' component = {reactWebsite}></Route>
+            <Route exact path ='/foodexpense' component = {foodExpense}></Route>
+            <Route exact path ='/angelhack' component = {angelHack}></Route>
             <Route exact path ='/tictactoe' component = {tictactoe}></Route>
 
         </Switch>
