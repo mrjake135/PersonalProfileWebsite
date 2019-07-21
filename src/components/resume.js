@@ -15,7 +15,7 @@ function Resume() {
                     <h2 style = {{paddingTop: '2em'}}>Khoa Phan</h2>
                     <h4 style = {{color: 'grey'}}></h4>
                     <hr style = {{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
-                    <p>I'm a computer Engineer looking for opportunities in the computer engineering or software engineering field. My objective in 2020 is to secure an entry software or hardware engineering position. I have experience with web development, including front end and back end development. I also have much experience with FPGA programming, low-level coding, and data collection. I'm willing to relocate and hungry to learn more.</p>
+                    <p>I'm a computer engineer looking for opportunities in the computer engineering or software engineering field. My objective in 2020 is to secure an entry software or hardware engineering position. I have experience with web development, including front end and back end development. I also have experience with FPGA programming, low-level coding, and data collection. I'm willing to relocate and hungry to learn more.</p>
                 </Cell>
                 
                 
@@ -25,7 +25,7 @@ function Resume() {
                     startYear = {2016} 
                     endYear = {2020}
                     schoolName = "Georgia Institute of Technology"
-                    schoolDescription = "Bachelor of Science in Electrical Engineering, GPA 3.20"
+                    schoolDescription = "Bachelor of Science in Electrical Engineering, GPA 3.20, Graduating with Honors"
                     />
                     <hr style = {{borderTop: '3px solid #e22947'}}></hr>
                     <h2>Experience</h2>
@@ -54,6 +54,9 @@ function Resume() {
                     Clubs: E-sports club, Zeta Beta Tau, Vietnamese Student Association<br />
                     Languages:  English(fluent), Vietnamese(fluent), Russian(auditory), Chinese(intermediate)<br />
                     Relevant Coursework: Logic Design, Signal Processing, Programming HW/SW systems, Circuit Analysis, Algorithms, Data Structures</p>
+                    <hr style = {{borderTop: '3px solid #e22947'}}></hr>
+                    <h2>Citizenship status</h2>
+                    <p>Green card paperwork approved, receiving green card in approximately 1-2 years</p>
                 </Cell>
             </Grid>
         </div>

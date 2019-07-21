@@ -8,8 +8,7 @@ function Contacts() {
             <Cell col = {6}>
                 <h2>Khoa Phan</h2>
                 <img src = {avatar} alt = 'avatar' className = 'avatarImageContact' style = {{height: '250px'}} ></img>
-                <p style = {{width: '75%',margin:'auto',paddingTop: '1em'}}>My preferred means of communication is email. I do 
-                have a phone number, however, I hope to create a more established relationship before giving out my phone number.
+                <p style = {{width: '75%',margin:'auto',paddingTop: '1em'}}>My preferred means of communication is email.
                 </p>
             </Cell>
             <Cell col = {6}>
