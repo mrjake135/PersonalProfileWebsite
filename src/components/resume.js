@@ -22,10 +22,10 @@ function Resume() {
                 <Cell col = {8} className = "resume-right-col">
                     <h2>Education</h2>
                     <Education 
-                    startYear = {2016} 
-                    endYear = {2020}
+                    startYear = {"September 2016"} 
+                    endYear = {"May 2020"}
                     schoolName = "Georgia Institute of Technology"
-                    schoolDescription = "Bachelor of Science in Electrical Engineering, GPA 3.20, Graduating with Honors"
+                    schoolDescription = "Bachelor of Science in Computer Engineering, GPA 3.20, Graduating with Honors"
                     />
                     <hr style = {{borderTop: '3px solid #e22947'}}></hr>
                     <h2>Experience</h2>
@@ -56,7 +56,7 @@ function Resume() {
                     Relevant Coursework: Logic Design, Signal Processing, Programming HW/SW systems, Circuit Analysis, Algorithms, Data Structures</p>
                     <hr style = {{borderTop: '3px solid #e22947'}}></hr>
                     <h2>Citizenship status</h2>
-                    <p>Green card paperwork approved, receiving green card in approximately 1-2 years</p>
+                    <p> Green card approved and eligible to work in the U.S</p>
                 </Cell>
             </Grid>
         </div>
