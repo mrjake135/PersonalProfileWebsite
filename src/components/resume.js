@@ -23,12 +23,18 @@ function Resume() {
                     <h2>Education</h2>
                     <Education 
                     startYear = {"September 2016"} 
-                    endYear = {"May 2020"}
+                    endYear = {"December 2020"}
                     schoolName = "Georgia Institute of Technology"
                     schoolDescription = "Bachelor of Science in Computer Engineering, GPA 3.20, Graduating with Honors"
                     />
                     <hr style = {{borderTop: '3px solid #e22947'}}></hr>
                     <h2>Experience</h2>
+                    <Experience 
+                    startYear = "January 2020"
+                    endYear = "May 2020"
+                    jobName = "Intern at Battelle"
+                    jobDescription = "Worked on a variety of projects including App development with React Native, scripting with Python, machine learning with MATLAB, and Raspberry Pi prototyping"
+                    />
                     <Experience 
                     startYear = "May 2019"
                     endYear = "August 2019"

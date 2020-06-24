@@ -5,7 +5,7 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle,CardText,CardActions,Button} fro
 class Projects extends Component {
     constructor(props) {
         super(props)
-        this.state = { activeTab: 4 };
+        this.state = { activeTab: 0 };
     }
     toggleCategories() {
         if (this.state.activeTab === 0) {
